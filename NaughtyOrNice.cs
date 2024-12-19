@@ -16,7 +16,7 @@ public class HelloWorld
             }
         }
         string[] subs = s.Split(' '); 
-        if (subs[0] % 2 == 0 && subs[1] % 2 == 0)
+        if (subs[0].Length % 2 == 0 && subs[1].Length % 2 == 0)
         {
             score += 5;
         }
@@ -40,7 +40,7 @@ public class HelloWorld
             }
         }
         string[] sub = a.Split(' '); 
-        if (sub[0] % 2 == 1 && sub[1] % 2 == 1)
+        if (sub[0].Length % 2 == 1 && sub[1].Length % 2 == 1)
         {
             score += 5;
         }
