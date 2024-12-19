@@ -6,11 +6,11 @@ public class HelloWorld
         int score = 0;
         foreach (char i in s)
         {
-            if (i == 'a' || i = 'e' || i == 'i' ||  i == 'o' ||  i == 'u')
+            if (i == 'a' || i == 'e' || i == 'i' ||  i == 'o' ||  i == 'u')
             {
                 score++;
             }
-            if (i == 's' || i = 'a' || i == 'n' ||  i == 't')
+            if (i == 's' || i == 'a' || i == 'n' ||  i == 't')
             {
                 score+=2;
             }
@@ -34,7 +34,7 @@ public class HelloWorld
             {
                 score++;
             }
-            if (i == 'g' || i = 'r' || i == 'i' ||  i == 'n' || i == 'c' ||  i == 'h')
+            if (i == 'g' || i == 'r' || i == 'i' ||  i == 'n' || i == 'c' ||  i == 'h')
             {
                 score+=2;
             }
