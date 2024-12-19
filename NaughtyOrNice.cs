@@ -15,6 +15,13 @@ public class HelloWorld
                 score+=2;
             }
         }
+        string[] subs = s.Split(' '); 
+        if (subs[0] % 2 == 0 && subs[1] % 2 == 0)
+        {
+            score += 5;
+        }
+        int Surname = subs[1].Length;
+        score += Surname;
         return score; 
     } 
     public static int Naughty(string a) 
@@ -32,6 +39,13 @@ public class HelloWorld
                 score+=2;
             }
         }
+        string[] sub = a.Split(' '); 
+        if (sub[0] % 2 == 1 && sub[1] % 2 == 1)
+        {
+            score += 5;
+        }
+        int First = sub[0].Length;
+        score += First;
         return score; 
     } 
     public static void Main(string[] args) 
